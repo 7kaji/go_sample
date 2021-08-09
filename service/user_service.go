@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	db "go_sample/driver"
-	"go_sample/entity"
+	db "github.com/7kaji/go_sample/driver"
+	"github.com/7kaji/go_sample/entity"
 )
 
 // Service procides user's behavior

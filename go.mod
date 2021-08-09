@@ -1,4 +1,4 @@
-module go_sample
+module github.com/7kaji/go_sample
 
 go 1.16
 

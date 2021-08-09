@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"go_sample/entity"
-	user "go_sample/service"
+	"github.com/7kaji/go_sample/entity"
+	user "github.com/7kaji/go_sample/service"
 
 	"github.com/go-chi/chi"
 )

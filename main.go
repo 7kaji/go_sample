@@ -5,8 +5,8 @@ import (
 
 	"github.com/joho/godotenv"
 
-	db "go_sample/driver"
-	"go_sample/server"
+	db "github.com/7kaji/go_sample/driver"
+	"github.com/7kaji/go_sample/server"
 )
 
 func main() {

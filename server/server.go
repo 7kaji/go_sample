@@ -8,7 +8,7 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 
-	user "go_sample/controller"
+	user "github.com/7kaji/go_sample/controller"
 )
 
 // Init is initialize server

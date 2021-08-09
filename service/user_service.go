@@ -18,7 +18,7 @@ type User entity.User
 // get all User
 func (s Service) GetAll() ([]User, error) {
 	var user User
-	var users []User
+	users := make([]User, 0)
 	db := db.GetDB()
 
 	rows, err := db.Queryx("SELECT id, first_name, last_name FROM users;")

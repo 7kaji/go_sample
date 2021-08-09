@@ -1,6 +1,6 @@
 module go_sample
 
-go 1.12
+go 1.16
 
 require (
 	github.com/go-chi/chi v4.1.2+incompatible

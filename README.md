@@ -31,7 +31,7 @@ mysql> CREATE TABLE IF NOT EXISTS `users` (
 `first_name` varchar(50) NOT NULL,
 `last_name` varchar(50) NOT NULL,
 PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARACTER SET utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 mysql> DESC users;
 

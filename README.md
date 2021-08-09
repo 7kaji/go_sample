@@ -3,7 +3,6 @@
 go package
 - [go-chi/chi: lightweight, idiomatic and composable router for building Go HTTP services](https://github.com/go-chi/chi)
 - [jmoiron/sqlx: general purpose extensions to golang's database/sql](https://github.com/jmoiron/sqlx)
-- [gravityblast/fresh: Build and (re)start go web apps after saving/creating/deleting source files.](https://github.com/gravityblast/fresh)
 
 db
 - MySQL
@@ -44,10 +43,8 @@ mysql> SELECT * FROM users;
 
 ```
 $ go run main.go
-or
-$ fresh
 ```
 
 ```
-$ curl -s -XGET localhost:8080/users |jq .
+$ curl -s -XGET localhost:8080/api/v1/users |jq .
 ```
